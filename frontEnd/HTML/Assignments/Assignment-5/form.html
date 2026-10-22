@@ -1,0 +1,215 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Job Application</title>
+</head>
+<body>
+
+<h2>Online Job Application</h2>
+
+<form>
+    <fieldset>
+        <legend>Personal Information</legend>
+    
+
+    <label>First Name:</label>
+    <input type="text" name="firstName">
+    <br><br>
+
+    <label>Last Name:</label>
+    <input type="text" name="lastName">
+    <br><br>
+
+    <label>Contact Number:</label>
+    <input type="tel" name="contactNumber">
+    <br><br>
+
+    <label>Email Address:</label>
+    <input type="email" name="email">
+    <br><br>
+
+    <label>Mobile Number:</label>
+    <input type="tel" name="mobileNumber">
+    <br><br>
+
+    <label>Age:</label>
+    <input type="number" name="age">
+    <br><br>
+
+    <label>Date of Birth:</label>
+    <input type="date" name="dob">
+    <br><br>
+
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female
+    <input type="radio" name="gender" value="Other"> Other
+    <br><br>
+
+    <label>Current Address:</label>
+    <br>
+    <textarea name="address" rows="4" cols="40"></textarea>
+    <br><br>
+
+    <label>Profile Photograph:</label>
+    <input type="file" name="photo" accept="image/*">
+    <br><br>
+
+    <label>Resume Upload:</label>
+    <input type="file" name="resume" accept=".pdf,.doc,.docx">
+    <br><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Educational Background</legend>
+    
+
+    <label>Highest Qualification:</label>
+    <select name="qualification">
+        <option>Select Qualification</option>
+        <option>10th</option>
+        <option>12th</option>
+        <option>Diploma</option>
+        <option>Graduate</option>
+        <option>Post Graduate</option>
+    </select>
+    <br><br>
+
+    <label>College Name:</label>
+    <input type="text" name="college">
+    <br><br>
+
+    <label>Graduation Marks:</label>
+    <input type="number" name="marks">
+    <br><br>
+
+    <label>Preferred Internship:</label>
+    <input type="text" name="internship">
+    <br><br>
+
+    <label>Graduation Year:</label>
+    <input type="number" name="graduationYear">
+    <br><br>
+
+    <label>Certifications Completed:</label>
+    <input type="checkbox" name="certifications" value="Java"> Java
+    <input type="checkbox" name="certifications" value="Python"> Python
+    <input type="checkbox" name="certifications" value="Web Development">
+    Web Development
+    <br><br>
+
+    <label>Preferred Interview Date:</label>
+    <input type="date" name="interviewDate">
+    <br><br>
+</fieldset>
+<fieldset> 
+    <legend>Job Preferences</legend>
+
+
+    <label>Search Job Positions:</label>
+    <input type="text" name="jobPosition">
+    <br><br>
+
+    <label>Select Job Role:</label>
+    <select name="jobRole">
+        <option>Select Job Role</option>
+        <option>Software Developer</option>
+        <option>Web Developer</option>
+        <option>Data Analyst</option>
+        <option>Java Developer</option>
+        <option>Python Developer</option>
+    </select>
+    <br><br>
+
+    <label>Employment Type:</label>
+    <input type="radio" name="employmentType" value="Full Time">
+    Full Time
+
+    <input type="radio" name="employmentType" value="Part Time">
+    Part Time
+
+    <input type="radio" name="employmentType" value="Internship">
+    Internship
+    <br><br>
+
+    <label>Expected Monthly Salary (INR):</label>
+    <input type="number" name="salary">
+    <br><br>
+
+    <label>Preferred Interview Time:</label>
+    <input type="time" name="interviewTime">
+    <br><br>
+
+    <label>Preferred Theme Color:</label>
+    <input type="color" name="themeColor">
+    <br><br>
+
+    <label>Coding Confidence (0-10):</label>
+    <input type="range" name="codingConfidence" min="0" max="10">
+    <br><br>
+
+    <label>LinkedIn Profile:</label>
+    <input type="url" name="linkedin">
+    <br><br>
+</fieldset>
+<fieldset> 
+    <legend> Technical Skills and Experience</legend>
+
+
+    <label>Years of Experience:</label>
+    <input type="number" name="experience">
+    <br><br>
+
+    <label>Preferred Technologies:</label>
+    <select name="technologies" multiple>
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>JavaScript</option>
+        <option>Java</option>
+        <option>Python</option>
+        <option>React</option>
+    </select>
+    <br><br>
+
+    <label>Technical Skills:</label>
+    <input type="checkbox" name="skills" value="HTML"> HTML
+    <input type="checkbox" name="skills" value="CSS"> CSS
+    <input type="checkbox" name="skills" value="JavaScript"> JavaScript
+    <input type="checkbox" name="skills" value="Java"> Java
+    <input type="checkbox" name="skills" value="Python"> Python
+    <br><br>
+
+    <label>Upload Resume:</label>
+    <input type="file" name="uploadedResume">
+    <br><br>
+
+    <label>Why should we hire you?</label>
+    <br>
+    <textarea name="reason" rows="5" cols="40"></textarea>
+    <br><br>
+
+</fieldset>
+<fieldset>
+    <legend>Skill Assessment and Application Status</legend>
+
+    <label>HTML Skill Level:</label>
+    <input type="range" name="htmlSkill" min="0" max="10">
+    <br><br>
+
+    <label>Application Status:</label>
+    <progress value="70" max="100"></progress>
+    <br><br>
+
+    <input type="checkbox" name="confirmation" required>
+    I confirm that the information provided is correct.
+    <br><br>
+
+    <button type="submit">Submit Application</button>
+    <button type="reset">Reset Form</button>
+    </fieldset>
+
+</form>
+
+</body>
+</html>
